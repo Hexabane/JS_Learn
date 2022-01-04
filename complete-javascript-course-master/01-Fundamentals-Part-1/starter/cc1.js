@@ -1,4 +1,4 @@
-let markWeight = 78;
+let markWeight = 79;
 let markHeight = 1.69;
 let johnWeight = 92;
 const johnHeight = 1.95;
