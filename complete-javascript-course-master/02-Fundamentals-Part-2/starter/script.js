@@ -112,3 +112,33 @@
 
 /////////////////////////////////////OBJECTS////////////////////////////////////
 
+const jonas = {
+    firstName: 'Kunal',
+    lastName: 'Goyal',
+    age: 2021 - 2001,
+    job: 'Student',
+    friends: ['Luc', 'Stephan', 'Peter']
+};
+
+console.log(jonas['age']);
+console.log(jonas.age);
+//the below invoke of object is not possible with dot notation only []bracket notation.
+const nameKey = 'Name';
+console.log(jonas['first' + nameKey], jonas['last' + nameKey]);
+
+//how dot notation calling of an object can be implemented
+const userInput = prompt('What do you want to know about Kunal? choose between ' +
+    'firstName, lastName, age, job or friends');
+
+if (jonas[userInput]) {
+    console.log(jonas[userInput]);
+}
+else {
+    console.log('Wrong request! choose between firstName, lastName, age, job or friends');
+}
+
+//how to add elements/variables in the object
+jonas.location = 'India';
+jonas['instagram'] = 'goyal_kunal';
+console.log(jonas);
+console.log(jonas)
