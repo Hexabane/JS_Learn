@@ -145,18 +145,21 @@
 
 ////////////////////////////////OBJECT METHODS/////////////////////////////////////////
 
-const jonas = {
-    firstName: 'Kunal',
-    lastName: 'Goyal',
-    birthYear: 2001,
-    job: 'Student',
-    friends: ['Luc', 'Stephan', 'Peter'],
+// const jonas = {
+//     firstName: 'Kunal',
+//     lastName: 'Goyal',
+//     birthYear: 2001,
+//     job: 'Student',
+//     friends: ['Luc', 'Stephan', 'Peter'],
+//     hasDriversLicense: true,
 
-    calcAge: function () {
-        this.age = 2021 - this.birthYear;
-        return this.age;
-    }
-};
+//     calcAge: function () {
+//         this.age = 2021 - this.birthYear;
+//         return this.age;
+//     }
+// };
 
-console.log(jonas.calcAge());
-console.log(jonas.age);
+// console.log(jonas.calcAge());
+// console.log(jonas.age);
+
+// console.log(`${jonas.firstName} is a ${jonas.age}-year old teacher, and he has ${jonas.hasDriversLicense ? 'a' : 'no'} driver's license.`)
