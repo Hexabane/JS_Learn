@@ -9641,35 +9641,27 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\RV's\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
-    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Users\\kunu1\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Visual Studio Code\\VS Code Projects\\TodoApi\\TodoApi.csproj",
+      "projectUniqueName": "D:\\VSCODE\\TodoApi\\TodoApi.csproj",
       "projectName": "TodoApi",
-      "projectPath": "D:\\Visual Studio Code\\VS Code Projects\\TodoApi\\TodoApi.csproj",
-      "packagesPath": "C:\\Users\\RV's\\.nuget\\packages\\",
-      "outputPath": "D:\\Visual Studio Code\\VS Code Projects\\TodoApi\\obj\\",
+      "projectPath": "D:\\VSCODE\\TodoApi\\TodoApi.csproj",
+      "packagesPath": "C:\\Users\\kunu1\\.nuget\\packages\\",
+      "outputPath": "D:\\VSCODE\\TodoApi\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
-      ],
       "configFilePaths": [
-        "C:\\Users\\RV's\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Users\\kunu1\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "D:\\C# Projects\\Local Nuget": {},
+        "C:\\Users\\kunu1\\source\\repos\\Local NuGet": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
