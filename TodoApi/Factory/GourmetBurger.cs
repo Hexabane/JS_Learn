@@ -5,8 +5,9 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 
-
-public class GourmetBurger : IBurger{
+namespace BurgerAPI
+{
+    public class GourmetBurger : IBurger{
      public string getBun(){
         return "Rye";
     }
@@ -30,4 +31,5 @@ public class GourmetBurger : IBurger{
     public string getBbqSauce(){
         return "BBQ Sauce";
     }
+}
 }

@@ -5,6 +5,8 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 
+namespace BurgerAPI
+{
 public class CheeseBurger:IBurger{
     
     public string getBun(){
@@ -18,4 +20,5 @@ public class CheeseBurger:IBurger{
     public string getCheese(){
         return "cheddar cheese";
     }
+}
 }
